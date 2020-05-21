@@ -1,0 +1,35 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * akzidenz-grotesk:
+ *   - http://typekit.com/eulas/000000000000000000013633
+ *   - http://typekit.com/eulas/000000000000000000013635
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+/*{"last_published":"2018-07-03 05:57:21 UTC"}*/
+
+@import url("p.css");
+@font-face {
+    font-family: "akzidenz-grotesk";
+	src: url("SF-Pro-Display-Medium.otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "akzidenz-grotesk";
+	src: url("SF-Pro-Display-Medium.otf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tk-akzidenz-grotesk {
+    font-family: "akzidenz-grotesk", sans-serif;
+}

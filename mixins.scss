@@ -1,0 +1,58 @@
+/* Global */
+
+@mixin hide-on-desktop {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+
+@mixin hide-on-mobile {
+	@media screen and (max-width: 767px) {
+		display: none;
+	}
+}
+
+
+/* Layout */
+
+@mixin clear-fix {
+
+	&:before,
+	&:after {
+		content: " "; 
+		display: table; 
+	}
+
+	&:after {
+		display: block;
+		clear: both;
+		height: 1px;
+		margin-top: -1px;
+		visibility: hidden;
+	}
+
+	& {
+		*zoom: 1;
+	}
+
+}
+
+/* Fonts */
+
+@mixin akzidenzGrotesk {
+	font-family: "akzidenz-grotesk", sans-serif;
+}
+
+@mixin drukWideMedium {
+	font-family: 'Druk Wide Web';
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@mixin drukWideSuper {
+	font-family: 'Druk Wide Web';
+	font-weight:  900;
+	font-style:   normal;
+	font-stretch: normal;
+}
