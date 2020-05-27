@@ -2498,7 +2498,7 @@ window.addEventListener("load", function(e) {
     }, 1050), namespace = barbaContainer.getAttribute("data-namespace"), isMobile && documentBody.classList.add("isMobile"), Barba.Dispatcher.on("linkClicked", function(t, e) {
         prevPage = Barba.HistoryManager.currentStatus().namespace, nextPage = t.getAttribute("data-barba"), barbaSelectedLink = t, documentBody.classList.contains("uiHover") && documentBody.classList.remove("uiHover"), documentBody.classList.contains("home-page") || documentBody.classList.contains("navTop") || documentBody.classList.add("navTop"), "HomeTransition" == nextPage && t.closest(".projectsLi").classList.add("isSelected")
     }), Barba.Dispatcher.on("newPageReady", function() {
-        window.ga && "localhost" != document.location.hostname && gtag("config", "UA-120921934-1", {
+        window.ga && "localhost" != document.location.hostname && gtag("", "", {
             page_path: location.pathname
         })
     }), isMobile || (ui.addEventListener("mouseenter", function(t) {
