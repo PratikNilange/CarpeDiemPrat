@@ -367,20 +367,19 @@ input {
 }
 
 @font-face {
-    font-family: Druk Wide Web;
-    src: url(DrukWide-Medium-Web.woff2) format("woff2"), url(DrukWide-Medium-Web.woff) format("woff");
+    font-family: 'Druk Wide Web';
+    src: url("DrukWide-Medium-Web.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
-    font-stretch: normal
+    font-stretch: normal;
 }
 
 @font-face {
-    font-family: Druk Wide Web;
-    src: url(../fonts/DrukWide-Super-Web.eot);
-    src: url(../fonts/DrukWide-Super-Web.eot?#iefix) format("embedded-opentype"), url(../fonts/DrukWide-Super-Web.woff2) format("woff2"), url(../fonts/DrukWide-Super-Web.woff) format("woff");
+    font-family: 'Druk Wide Web';
+    src: url("DrukWide-Super-Web.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
-    font-stretch: normal
+    font-stretch: normal;
 }
 
 h1,
